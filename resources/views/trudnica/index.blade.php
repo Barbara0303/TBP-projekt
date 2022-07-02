@@ -24,14 +24,14 @@
         <table class="table table-striped table-bordered table-hover" id="dataTable">
             <thead class>
                 <tr>
-                    <th class="text-center">Pacijentica</th>
+                    <th class="text-center">Pacijentica </th>
                     <th class="text-center"></th>
                 </tr>
             </thead>
             <tbody>
                 @foreach($trudnice as $trudnica)
                 <tr>
-                    <td class="text-center"> {{ $trudnica->ime}} {{ $trudnica->prezime}} <i class="fa-solid fa-person-pregnant"></i></td>
+                    <td class="text-center"> {{ $trudnica->ime}} {{ $trudnica->prezime}}</td>
                     <td class="text-center">
                         <a href="{{route('details.trudnice', $trudnica->trudnica_id)}}" data-toggle=modal class="btn btn-light" id="detalji">
                             <i class="fa-solid fa-circle-info"></i></a>

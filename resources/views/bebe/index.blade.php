@@ -19,7 +19,7 @@
                     </h2>
                     <hr>
                     <div>
-                    <span >Ime i prezime pacijentice: </span>
+                    <span>Ime i prezime pacijentice: </span>
                         <a href="{{route('details.trudnice', $trudnica->trudnica_id)}}" id=trudnica_link> {{$trudnica->ime}} {{$trudnica->prezime}} </a><br>
                         <span>Vrsta trudnoće: {{$trudnoca->vrsta_trudnoce}}</span><br>
                         <span>Tip trudnoće: 
@@ -63,7 +63,7 @@
                         @endif
                         @endforeach
                     </td>
-                    <td> <button type="button" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#editDijete" 
+                    <td class="text-center"> <button type="button" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#editDijete" 
                     idDijete={{$beba->dijete_id}} id="editD"
                     spol =  {{$beba->spol}}
                     tezina = {{$beba->tezina}}

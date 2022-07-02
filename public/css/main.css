@@ -21,6 +21,8 @@ body {
 .navbar-custom-first {
     background-color: transparent;
     justify-content: flex-start !important;
+    box-shadow: 0 3px 4px rgba(66,66,66,0.1);
+    border-bottom: 1px solid rgba(66,66,66,0.25);
 }
 
 .navbar-custom .navbar-brand,
@@ -176,9 +178,10 @@ label {
 
 #trudnica_link {
     color:#35495a;
+    text-transform: uppercase;
 }
 
 span {
-    font-weight: bold;  
+    font-weight: bold; 
 }
 
