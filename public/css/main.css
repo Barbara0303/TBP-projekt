@@ -177,8 +177,14 @@ label {
 }
 
 #trudnica_link {
-    color:#35495a;
+    color:#286091;
+    font-weight: bold;
     text-transform: uppercase;
+}
+
+#trudnica_link:hover {
+    color:#000000;
+    font-weight: bolder;
 }
 
 span {
