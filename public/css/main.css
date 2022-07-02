@@ -1,0 +1,184 @@
+body {
+    background-color: white;
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    position: relative;
+}
+
+.wrapper {
+    height: 100vh
+}
+
+#logo {
+    height: 70px;
+}
+
+
+.navbar-custom,
+.navbar-custom-first {
+    background-color: transparent;
+    justify-content: flex-start !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #35495a;
+    font-weight: bold;
+    padding: 1em;
+    margin-right: 0px !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #35495a;
+}
+.navbar-custom .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #35495a;
+    color: transparent;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.5s;
+}
+.navbar-custom .navbar-nav .nav-link:hover::after {
+    width: 100%;
+    background-color:  #f3d5c0;
+}
+
+
+#footer {
+    position: absolute;
+    width: 100%;
+}
+
+.footer-basic {
+    padding: 20px 0;
+    background-color: #35495a;
+}
+
+.footer-basic .social {
+    text-align: center;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
+    color: #f3d5c0;
+}
+
+.footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #f3d5c0;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #f3d5c0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: white !important;
+}
+
+.pagination > li > a {
+    background-color: white;
+    color: #35495a;
+}
+
+.table-hover tbody tr:hover td {
+    background: #889eaf;
+    color: whitesmoke;
+}
+
+.table.dataTable tbody > tr.selected,
+table.dataTable tbody > tr > .selected {
+    background-color: #35495a;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a {
+    color: white;
+    background-color: #35495a !important;
+    border: solid 1px #35495a !important;
+}
+
+.pagination > .active > a:hover {
+    background-color: #889eaf !important;
+    border: solid 1px #889eaf !important;
+}
+
+.table-title {
+    padding-bottom: 15px;
+}
+
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+label {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-weight: bold;
+}
+
+.modal-subtitle {
+  font-weight: bold;
+}
+
+#addT {
+    margin-top: 1em;
+}
+
+#trudnica_link {
+    color:#35495a;
+}
+
+span {
+    font-weight: bold;  
+}
+
