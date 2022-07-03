@@ -236,7 +236,6 @@
                     <thead>
                         <tr>
                             <th class="text-center">Vrsta trudnoće</th>
-                            <th class="text-center">Tip trudnoće</th>
                             <th class="text-center">Početak trudnoće</th>
                             <th class="text-center">Termin poroda</th>
                         </tr>
@@ -245,13 +244,6 @@
                         @foreach($trudnoca as $trudnoce)
                         <tr>
                             <td class="text-center">{{$trudnoce->vrsta_trudnoce}}</td>
-                            <td class="text-center">
-                                @if ($trudnoce->rizicna_trudnoca === 1)
-                                Rizična
-                                @else
-                                Nerizična
-                                @endif
-                            </td>
                             <td class="text-center">{{$trudnoce->pocetak_trudnoce}}</td>
                             <td class="text-center">{{$trudnoce->termin_porodaja}}</td>
                         </tr>

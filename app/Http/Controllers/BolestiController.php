@@ -21,7 +21,7 @@ class BolestiController extends Controller
             ($bolest->save());
             return redirect()->back()->with('success', 'Uspješno dodano!');
         } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'Nemoguće dodati navedenu dijagnozu!');
+            return redirect()->back()->with('error', 'Nije moguće upisati dijagnozu.');
         }
 
     }

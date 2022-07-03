@@ -49,7 +49,7 @@ class TrudnicaController extends Controller
     public function details($trudnica_id)
     {
         $trudnica = Trudnica::where('trudnica_id',$trudnica_id)->first();
-        $trudnoca = Trudnoca::where('trudnica_id',$trudnica_id)->first();
+        $trudnoca = Trudnoca::where('trudnica_id',$trudnica_id)->orderBy('trudnoca_id', 'desc')->first();
         $krvnaGrupa = KrvnaGrupa::where('id',$trudnica->krvna_grupa_id)->first();
         $bolestiTrudnice = DB::select("select naziv from bolesti b, bolesti_trudnice bt where bt.trudnica_id = $trudnica_id and b.bolest_id = bt.bolest_id");
         $bolesti = Bolest::all();

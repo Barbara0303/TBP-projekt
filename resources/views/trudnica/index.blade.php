@@ -24,7 +24,7 @@
         <table class="table table-striped table-bordered table-hover" id="dataTable">
             <thead class>
                 <tr>
-                    <th class="text-center">Pacijentica </th>
+                    <th class="text-center">Pacijentica</th>
                     <th class="text-center"></th>
                 </tr>
             </thead>
